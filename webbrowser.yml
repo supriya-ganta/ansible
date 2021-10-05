@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+  tasks: 
+  - name: i want to intsall webserver on ubuntu
+    apt:
+      name: apache2
+      state: present
+     
+
+   
